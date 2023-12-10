@@ -31,8 +31,9 @@
             </a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="/pegawai">Pegawai</a>
-              <a class="dropdown-item" href="#">NilaiKuliah</a>
-              <a class="dropdown-item" href="#">KeranjangBelanja</a>
+              <a class="dropdown-item" href="/nilaikuliah">NilaiKuliah</a>
+              <a class="dropdown-item" href="/keranjangbelanja">KeranjangBelanja</a>
+              <a class="dropdown-item" href="/ikan">Ikan</a>
             </div>
           </li>
         </ul>

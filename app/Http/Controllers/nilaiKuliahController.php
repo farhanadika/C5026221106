@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\DB;
 
 class NilaiKuliahController extends Controller
 {
-	public function index()
+	public function index1()
     {
 
     	$nilaikuliah = DB::table('nilaikuliah')->get();
