@@ -38,16 +38,16 @@
 		</tr>
 		@foreach($karyawan as $k)
 		<tr>
-			<td>{{ $k->karyawan_nama }}</td>
-			<td>{{ $k->karyawan_jabatan }}</td>
-			<td>{{ $k->karyawan_umur }}</td>
-			<td>{{ $k->karyawan_alamat }}</td>
+			<td>{{ $k->kodepegawai }}</td>
+			<td>{{ $k->namalengkap }}</td>
+			<td>{{ $k->divisi }}</td>
+			<td>{{ $k->departemen }}</td>
 			<td>
-				<a href="/karyawan/view/{{ $k->karyawan_id }}" class="btn btn-primary">View</a>
+				<a href="/karyawan/view/{{ $k->kodepegawai }}" class="btn btn-primary">View</a>
 				|
-				<a href="/karyawan/hapus/{{ $k->karyawan_id }}" class="btn btn-danger">Hapus</a>
+				<a href="/karyawan/hapus/{{ $k->kodepegawai }}" class="btn btn-danger">Hapus</a>
                 |
-                <a href="/karyawan/edit/{{ $k->karyawan_id }}" class="btn btn-warning">Edit</a>
+                <a href="/karyawan/edit/{{ $k->kodepegawai }}" class="btn btn-warning">Edit</a>
 			</td>
 		</tr>
 		@endforeach
